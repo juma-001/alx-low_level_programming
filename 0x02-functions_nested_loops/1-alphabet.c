@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabets in lover case
- *
- */
+*print_alphabet - function that print alphabet
+*it prints in lowercase
+*Return: no return
+*/
 void print_alphabet(void)
 {
-	char current_char = 'a';
-
-	while (current_char <= 'z')
-	{
-		_putchar(current_char);
-		current_char++;
-	}
-	_putchar('\n');
+int letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+_putchar (letter);
 }
+_putchar (10);
+}
+
